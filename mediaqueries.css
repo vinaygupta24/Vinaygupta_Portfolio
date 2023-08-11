@@ -14,6 +14,13 @@
 	.portfolio .gallery .item{
 		width: calc(100% / 2);
 	}
+    .about-containers {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
 }
 
 /*   === Screen Size 768px or Smaller  ===   */
@@ -103,10 +110,10 @@
 	}
 
 	/* Resume Section */
-	.resume .resume-row{
+	.educationexperience .educationexperience-row{
 		flex-direction: column;
 	}
-	.resume-row .column-right{
+	.educationexperience-row .column-right{
 		margin-top: 30px;
 	}
 	/* Contact Section */
