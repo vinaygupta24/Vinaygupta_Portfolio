@@ -1,5 +1,111 @@
 /*   *** Media Query Starts ***   */
 
+/* Screem size 1440px or Smaller  */
+@media(min-width: 1400px){
+	.home {
+		min-height: 70vh;
+	}
+
+	.home .hero {
+		position: relative;
+		width: 100%;
+		min-height: 70vh;
+	}
+
+	.logo {
+		font-size: 2.5rem;
+	}
+
+    .navbar ul.nav-links li a {
+		font-size: 20px;
+	}
+
+	.hero .hero-text h3 {
+		font-size: 25px;
+	}
+
+	.hero .hero-text h2 {
+		font-size: 26px;
+	}
+	.hero .hero-text p {
+		font-size: 18px;
+	}
+	.about .about-desc h2 {
+		font-size: 25px;
+	}
+	.about .about-desc p {
+		font-size: 18px;
+	}
+
+	.about-personal-info div span {
+		font-size: 16px;
+	}
+
+	.about-containers{
+		gap: 6rem;
+	}
+
+	.Website-container section.reusable .headings h3 {
+		font-size: 20px;
+	}
+	.Website-container section.reusable .headings h1 {
+		font-size: 35px;
+	}
+	.educationexperience-contents .box p {
+		font-size: 17px;
+	}
+	
+	.details-container {
+		padding: 2.2rem;
+		border-radius: 2.6rem;
+		border-width: 0.18rem;
+	}
+	
+	.details-container h2{
+		font-size: 28px;
+		margin-bottom: 26px;
+	}
+	
+	.article-container {
+		gap: 0.8rem;		
+	}
+	
+	article {
+		gap: 0.8rem;
+	}
+	
+	article .icon {
+		height: 1.8rem;
+	}
+	
+	.inside-box h3 {
+		font-size: 1.4em;
+		margin-block-start: 1.2em;
+		margin-block-end: 1.2em;
+	}
+	
+	.inside-box p {
+		color: var(--text-clr);
+		font-size: 1.2em;
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+	}
+	.column-2 .form-2 textarea {
+		font-size: 20px;
+	}
+	.column-2 .form-2 .form-button {
+		font-size: 20px;
+	}
+	.footer-contents a {
+		font-size: 25px;;
+	}
+	.footer-contents p {
+		font-size: 18px;
+	}
+}
+
+
 /*   === Screen Size 1100px or Smaller  ===   */
 @media(max-width: 1100px){
 	/* Home Section */
@@ -14,17 +120,19 @@
 	.portfolio .gallery .item{
 		width: calc(100% / 2);
 	}
-    .about-containers {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        
-    }
 }
+
+
 
 /*   === Screen Size 768px or Smaller  ===   */
 @media(max-width: 768px){
+
+	.home .hero {
+		min-height: 70vh;
+	}
+	.home {
+		min-height: 70vh;
+	}
 	/* Home Section */
 	.navbar .menu-btn{
 		display: block;
@@ -104,17 +212,8 @@
 		min-height: 200px;
 	}
 	.about .about-image img{
-		/* width: 650px;
-		height: 400px;
-		position: relative;
-		background-position: left; */
 		padding-bottom: 840px;
 		
-	}
-	/* Services Section */
-	.services-container .service-box{
-		flex-basis: 100%;
-		margin-bottom: 10px;
 	}
 
 	/* Resume Section */
@@ -142,6 +241,69 @@
 	}
 	.column-2 .form-2 .inputGroup{
 		border: 1px solid #ddd;
+	}
+	/* skills Section */
+	.about-containers{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		align-content: center;
+		gap: 1.2rem;
+	}
+	
+	.details-container {
+		padding: 1.2rem;
+		border-radius: 2.5rem;
+		border: rgb(53, 53, 53) 0.1rem solid;
+		border-width: 0.13rem;
+		border-color:var(--primary-clr) ;
+		text-align: center;
+	}
+	
+	.details-container h2{
+		font-size: 22px;
+		color: var(--primary-clr);
+		margin-bottom: 25px;
+	}
+	
+	.article-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: start;
+		gap: 0.8rem;
+		text-align: initial;
+		
+	}
+	
+	article {
+		display: flex;
+		width: 8rem;
+		flex-wrap: wrap;
+		gap: 0.9rem;
+	}
+	
+	article .icon {
+		cursor: pointer;
+		height: 1.5rem;
+	}
+	
+	.inside-box h3 {
+		color: var(--secondary-heading);
+		display: block;
+		font-size: 1em;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		font-weight: bold;
+	}
+	
+	.inside-box p {
+		color: var(--text-clr);
+		font-size: 0.9em;
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+	
 	}
 }
 
