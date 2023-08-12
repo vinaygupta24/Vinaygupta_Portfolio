@@ -100,8 +100,16 @@
 		min-height: 300px;
 	}
 	.about .about-image img{
-		min-width: 250px;
-		min-height: 300px;
+		min-width: 150px;
+		min-height: 200px;
+	}
+	.about .about-image img{
+		/* width: 650px;
+		height: 400px;
+		position: relative;
+		background-position: left; */
+		padding-bottom: 840px;
+		
 	}
 	/* Services Section */
 	.services-container .service-box{
@@ -168,6 +176,7 @@
 	button.contact-btn{
 		display: none;
 	}
+	
 }
 
 /*   *** Media Query Ends ***   */

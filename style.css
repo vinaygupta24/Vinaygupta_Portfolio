@@ -464,6 +464,10 @@ button.contact-btn {
     line-height: 1.3;
     color: var(--text-clr);
     font-size: 15px;
+    
+}
+.educationexperience-contents .paragraph{
+    text-align: justify;
 }
 
 .educationexperience-contents .box h5 {
